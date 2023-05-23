@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  month: MyString
+  subject: MyString
+  monthly_low: 9.99
+  monthly_high: 9.99
+  results_count: 1
+
+two:
+  month: MyString
+  subject: MyString
+  monthly_low: 9.99
+  monthly_high: 9.99
+  results_count: 1

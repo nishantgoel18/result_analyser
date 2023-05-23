@@ -3,6 +3,7 @@ class CreateResults < ActiveRecord::Migration[7.0]
     create_table :results do |t|
       t.string :subject
       t.decimal :marks, min: 0.0, max: 100.0, default: 0.0
+      t.datetime :timestamp
 
       t.timestamps
     end
